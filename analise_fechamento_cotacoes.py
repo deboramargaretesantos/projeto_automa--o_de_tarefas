@@ -1,17 +1,10 @@
-#PASSO A PASSO 
-
-#1° Buscar no site yahoo finance as cotações das ações no período de 01/01/2020 a 31/12/2020 automaticamente;
-#2º Criar análses: 
-#    - cotação mínima;
-#    - cotação máxima;
-#    - média.
-# 3º Enviar análises automaticamente por e-mail.
-
 # Importando bibliotecas necessárias
 
 import yfinance
 import pyautogui
-import time
+import pyperclip
+import webbrowser
+from time import sleep
 
 # Buscando dados de uma ação;
 
@@ -26,3 +19,13 @@ print(tabela)
 
 fechamento = tabela.Close
 print(fechamento)
+
+# Gerando estatísticas
+
+maxima = round(fechamento.max(), 2)
+minima = round(fechamento.min(), 2)
+media = round(fechamento.mean(), 2)
+print(maxima)
+print(min)
+print(media)
+
