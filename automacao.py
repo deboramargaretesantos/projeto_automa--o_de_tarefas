@@ -10,6 +10,12 @@ tabela = pd.read_csv("produtos.csv")
 print(tabela)
 
 #define o tempo de espera entre os comandos do pyautogui
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 1.0
 
-pyautogui.click(win)
+#Abrindo o sitema usando chrome, usando pyautogui
+pyautogui.press("win")
+pyautogui.write("chome")
+pyautogui.press("enter")
+link = ("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
+pyautogui.write(link)
+pyautogui.press("enter")
