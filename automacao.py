@@ -38,22 +38,23 @@ for linha in tabela.index:
     #Pega o código da tabela e escreve no campo
     pyautogui.write(str(tabela.loc[linha, "codigo"]))
     #passando para o próximo campo
-    pyautogui.press("enter")
+    pyautogui.press("tab")
     #segue essa sequência para os demais campos
     pyautogui.write(str(tabela.loc[linha, "marca"]))
-    pyautogui.press("enter")
+    pyautogui.press("tab")
     pyautogui.write(str(tabela.loc[linha, "tipo"]))
-    pyautogui.press("enter")
+    pyautogui.press("tab")
     pyautogui.write(str(tabela.loc[linha, "categoria"]))
-    pyautogui.press("enter")
+    pyautogui.press("tab")
     pyautogui.write(str(tabela.loc[linha, "preco_unitario"]))
-    pyautogui.press("enter")
+    pyautogui.press("tab")
     pyautogui.write(str(tabela.loc[linha, "custo"]))
-    pyautogui.press("enter")
+    pyautogui.press("tab")
     pyautogui.write(str(tabela.loc[linha, "obs"]))
-    pyautogui.press("enter")
+    pyautogui.press("tab")
     #verifica se tem informação em "obs", caso contrário não preenche
     if not pd.isna(tabela.loc[linha, "obs"]):
         pyautogui.write(str(tabela.loc[linha, "obs"]))
+        
 
   
