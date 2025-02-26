@@ -22,4 +22,11 @@ pyautogui.press("enter")
 
 #tempo de espera para abertura do sistema
 time.sleep(5)
+#fazendo login (qualquer e-mail e senha funcionará)
+pyautogui.click(x=596, y=377)
+pyautogui.write("deborasantos@gmail.com")
+pyautogui.press("enter")
+pyautogui.click(x=546, y=470)
+pyautogui.write("1234")
+pyautogui.press("enter")
 
