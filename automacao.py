@@ -1,7 +1,10 @@
-# Biblioteca pyautogui usada aqui com a finalidade de controlar o mouse e o teclado, realizar capturas de tela, clicar em campos, digitar textos, entre outros
+#Biblioteca pyautogui usada aqui com a finalidade de controlar o mouse e o teclado, realizar capturas de tela, clicar em campos, digitar textos, entre outros
 import pyautogui
-# Biblioteca pandas usada aqui Leitura e escrita de arquivos como CSV
+#Biblioteca pandas usada aqui Leitura e escrita de arquivos como CSV
 import pandas as pd
-# Pausar a execução de um programa por um tempo específico com
+#Pausar a execução de um programa por um tempo específico com
 import time
 
+#Importando base de dados
+tabela = pd.read_csv("produtos.csv")
+print(tabela)
