@@ -55,3 +55,5 @@ for linha in tabela.index:
     #verifica se tem informação em "obs", caso contrário não preenche
     if not pd.isna(tabela.loc[linha, "obs"]):
         pyautogui.write(str(tabela.loc[linha, "obs"]))
+
+  
