@@ -19,3 +19,7 @@ pyautogui.press("enter")
 link = ("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.write(link)
 pyautogui.press("enter")
+
+#tempo de espera para abertura do sistema
+time.sleep(5)
+
