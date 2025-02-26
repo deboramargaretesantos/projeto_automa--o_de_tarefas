@@ -8,3 +8,8 @@ import time
 #Importando base de dados
 tabela = pd.read_csv("produtos.csv")
 print(tabela)
+
+#define o tempo de espera entre os comandos do pyautogui
+pyautogui.PAUSE = 0.5
+
+pyautogui.click(win)
