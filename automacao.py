@@ -30,3 +30,8 @@ pyautogui.click(x=546, y=470)
 pyautogui.write("1234")
 pyautogui.press("enter")
 
+#Aqui precisamos percorrer as linhas da tabela
+#Para cada linha vamos cadastrar um produto
+for linha in tabela.index:
+    pyautogui.click()
+
