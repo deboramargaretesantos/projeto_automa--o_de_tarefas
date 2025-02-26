@@ -1,0 +1,101 @@
+codigo,marca,tipo,categoria,preco_unitario,custo,obs
+1,Mizuno,Calca,Yoga,882.96,49.03,Promocao
+2,Nike,Camisa,Fitness,787.43,421.2,Edicao Limitada
+3,Asics,Camisa,Treino,338.22,336.84,Disponivel em varias cores
+4,Mizuno,Mochila,Esporte,796.39,121.76,Promocao
+5,Adidas,Sapato,Casual,240.47,8.56,
+6,Under Armour,Mochila,Casual,697.97,115.39,
+7,Adidas,Sapato,Futebol,666.44,218.59,Novo Modelo
+8,Asics,Sapato,Fitness,566.47,381.71,Promocao
+9,Asics,Calca,Fitness,369.03,419.46,
+10,Nike,Meia,Corrida,349.18,309.85,Novo Modelo
+11,Mizuno,Camisa,Yoga,584.96,55.83,
+12,Mizuno,Camisa,Yoga,89.11,131.64,Novo Modelo
+13,Mizuno,Sapato,Corrida,802.49,243.43,Novo Modelo
+14,Asics,Mochila,Basquete,106.8,477.69,
+15,Asics,Short,Treino,748.75,156.15,Edicao Limitada
+16,Adidas,Meia,Futebol,384.83,357.36,
+17,Under Armour,Sapato,Treino,150.02,90.85,Disponivel em varias cores
+18,Mizuno,Jaqueta,Fitness,997.29,98.74,Promocao
+19,Under Armour,Sapato,Futebol,257.66,340.99,Novo Modelo
+20,Under Armour,Jaqueta,Yoga,850.51,318.5,Promocao
+21,Fila,Mochila,Treino,555.76,344.69,Novo Modelo
+22,Reebok,Camisa,Corrida,872.07,402.25,Novo Modelo
+23,Reebok,Mochila,Basquete,53.46,144.68,
+24,Reebok,Short,Yoga,968.03,70.81,Novo Modelo
+25,Mizuno,Short,Treino,300.98,286.42,Promocao
+26,Asics,Camisa,Corrida,237.06,409.46,Disponivel em varias cores
+27,Fila,Short,Casual,912.1,357.69,Edicao Limitada
+28,Adidas,Sapato,Yoga,812.85,316.81,Promocao
+29,Adidas,Mochila,Basquete,64.24,140.77,Disponivel em varias cores
+30,Mizuno,Sapato,Esporte,786.36,277.32,Promocao
+31,Fila,Short,Corrida,519.28,127.07,Promocao
+32,Mizuno,Sapato,Treino,534.13,303.54,Promocao
+33,Reebok,Short,Yoga,762.07,351.39,Edicao Limitada
+34,Mizuno,Meia,Corrida,635.36,342.4,Edicao Limitada
+35,Reebok,Bone,Treino,971.78,427.82,
+36,Mizuno,Short,Yoga,162.73,97.33,Promocao
+37,Adidas,Mochila,Corrida,591.93,63.86,
+38,Reebok,Mochila,Corrida,796.1,463.5,
+39,Mizuno,Calca,Treino,835.13,475.62,Edicao Limitada
+40,Under Armour,Sapato,Yoga,434.77,427.34,Edicao Limitada
+41,Adidas,Sapato,Basquete,894.18,243.82,Edicao Limitada
+42,Adidas,Bone,Casual,261.32,198.47,
+43,Nike,Jaqueta,Corrida,240.38,18.75,
+44,Asics,Bone,Corrida,252.99,205.92,Promocao
+45,Under Armour,Bone,Yoga,932.07,220.06,Novo Modelo
+46,Nike,Jaqueta,Treino,920.48,154.13,Edicao Limitada
+47,Mizuno,Camisa,Fitness,994.22,196.96,
+48,Adidas,Bone,Basquete,147.91,381.04,Edicao Limitada
+49,Fila,Mochila,Futebol,870.41,190.58,Edicao Limitada
+50,Nike,Mochila,Yoga,909.65,107.05,Edicao Limitada
+51,Adidas,Bone,Futebol,372.83,447.5,Disponivel em varias cores
+52,Asics,Bone,Fitness,251.0,369.45,Promocao
+53,Adidas,Sapato,Esporte,683.63,307.96,Novo Modelo
+54,Mizuno,Mochila,Esporte,101.41,344.51,Disponivel em varias cores
+55,Asics,Camisa,Basquete,473.19,124.25,Disponivel em varias cores
+56,Nike,Jaqueta,Yoga,564.32,20.45,Promocao
+57,Under Armour,Short,Casual,714.91,331.54,Promocao
+58,Mizuno,Camisa,Basquete,60.05,186.06,Promocao
+59,Puma,Mochila,Treino,337.53,51.31,Edicao Limitada
+60,Nike,Calca,Yoga,209.51,104.19,Novo Modelo
+61,Asics,Meia,Yoga,553.14,317.2,Disponivel em varias cores
+62,Mizuno,Calca,Treino,274.75,233.73,
+63,Nike,Meia,Casual,779.64,267.67,Edicao Limitada
+64,Fila,Short,Futebol,529.5,219.51,Promocao
+65,Mizuno,Bone,Basquete,28.42,80.44,Novo Modelo
+66,Nike,Calca,Corrida,308.2,171.98,Promocao
+67,Reebok,Bone,Treino,476.8,220.14,Edicao Limitada
+68,Reebok,Jaqueta,Casual,394.54,298.07,Promocao
+69,Mizuno,Meia,Treino,775.63,270.84,
+70,Puma,Bone,Basquete,227.23,276.69,Edicao Limitada
+71,Nike,Meia,Yoga,893.05,235.56,
+72,Under Armour,Calca,Futebol,734.21,438.6,Disponivel em varias cores
+73,Nike,Meia,Basquete,964.81,232.7,
+74,Adidas,Mochila,Yoga,22.53,428.33,
+75,Mizuno,Calca,Yoga,581.04,447.58,Edicao Limitada
+76,Nike,Calca,Casual,553.41,481.88,Novo Modelo
+77,Adidas,Mochila,Fitness,533.51,492.94,Edicao Limitada
+78,Asics,Short,Fitness,738.98,41.54,Novo Modelo
+79,Mizuno,Meia,Yoga,471.84,425.31,Edicao Limitada
+80,Puma,Meia,Casual,661.79,241.8,Edicao Limitada
+81,Puma,Mochila,Corrida,308.72,238.92,Disponivel em varias cores
+82,Adidas,Sapato,Casual,996.99,83.48,Edicao Limitada
+83,Fila,Calca,Casual,28.71,118.51,
+84,Mizuno,Mochila,Basquete,579.77,301.71,Promocao
+85,Adidas,Calca,Corrida,16.94,460.99,Edicao Limitada
+86,Puma,Meia,Yoga,999.48,277.13,Promocao
+87,Adidas,Bone,Futebol,594.67,435.52,Promocao
+88,Fila,Mochila,Fitness,37.35,145.31,Novo Modelo
+89,Fila,Short,Fitness,40.91,119.88,Edicao Limitada
+90,Reebok,Camisa,Treino,24.93,47.24,Disponivel em varias cores
+91,Fila,Jaqueta,Casual,998.31,307.24,Novo Modelo
+92,Adidas,Bone,Casual,998.18,428.26,Disponivel em varias cores
+93,Puma,Jaqueta,Basquete,838.04,253.82,
+94,Adidas,Short,Fitness,373.68,327.44,Novo Modelo
+95,Fila,Calca,Basquete,439.46,119.56,Novo Modelo
+96,Puma,Mochila,Treino,228.78,135.05,Promocao
+97,Nike,Mochila,Esporte,440.58,81.97,
+98,Reebok,Camisa,Casual,328.27,104.58,Promocao
+99,Mizuno,Short,Futebol,809.65,285.67,
+100,Fila,Camisa,Yoga,515.41,57.67,Disponivel em varias cores
