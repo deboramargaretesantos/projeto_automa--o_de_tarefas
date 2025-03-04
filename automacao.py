@@ -21,7 +21,7 @@ pyautogui.write(link)
 pyautogui.press("enter")
 
 #tempo de espera para abertura do sistema
-time.sleep(4)
+time.sleep(3)
 #fazendo login (qualquer e-mail e senha funcionará)
 pyautogui.click(x=596, y=377)
 pyautogui.write("deborasantos@gmail.com")
@@ -30,11 +30,14 @@ pyautogui.click(x=546, y=470)
 pyautogui.write("****")
 pyautogui.press("enter")
 
+pyautogui.PAUSE = 0.5
 #Aqui precisamos percorrer as linhas da tabela
 #Para cada linha vamos cadastrar um produto
 for linha in tabela.index:
     #Clica no primeiro campo
-    pyautogui.click(x=453, y=262)
+    pyautogui.click(x=381, y=255)
+    pyautogui.hotkey('ctrl', 'a')  # Seleciona todo o texto
+    pyautogui.press('delete')  # Deleta o texto selecionado
     #Pega o Under Armourcódigo da tabela e escreve no campo
     pyautogui.write(str(tabela.loc[linha, "codigo"]))
     #passando para o próximo campo
@@ -56,8 +59,9 @@ for linha in tabela.index:
     if not pd.notna(tabela.loc[linha, "obs"]):
        pyautogui.write(str(tabela.loc[linha, "obs"]))
 
-    pyautogui.click(x=466, y=599)
-    pyautogui.scroll(2000)
+    pyautogui.click(x=605, y=222)
+    pyautogui.press("enter")
+    pyautogui.scroll(3000)
 
 
   
