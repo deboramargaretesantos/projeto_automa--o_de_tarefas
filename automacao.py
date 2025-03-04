@@ -19,7 +19,6 @@ pyautogui.press("enter")
 link = ("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.write(link)
 pyautogui.press("enter")
-#Tempo de espera para abertura do sistema, antes que a próxima etapa comece.
 
 #Faz o  login (qualquer e-mail e senha funcionará)252.95
 pyautogui.click(x=596, y=377)
@@ -28,6 +27,9 @@ pyautogui.press("enter")
 pyautogui.click(x=546, y=470)
 pyautogui.write("****")
 pyautogui.press("enter")
+
+#Definido novo tempo de espera para os comandos desse bloco com intuito de acelerar o cadastro dos produtos
+pyautogui.PAUSE = 0.2
 
 #Aqui precisamos percorrer as linhas da tabela
 #Para cada linha vamos cadastrar um produto
