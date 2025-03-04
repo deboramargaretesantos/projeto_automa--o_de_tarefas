@@ -6,7 +6,7 @@ import pandas as pd
 import time
 
 #Importando base de dados
-tabela = pd.read_csv("produtos.csv")
+tabela = pd.read_csv("produtos2.csv")
 print(tabela)
 
 #define o tempo de espera entre os comandos do pyautogui
@@ -21,7 +21,7 @@ pyautogui.write(link)
 pyautogui.press("enter")
 
 #tempo de espera para abertura do sistema
-time.sleep(5)
+time.sleep(4)
 #fazendo login (qualquer e-mail e senha funcionará)
 pyautogui.click(x=596, y=377)
 pyautogui.write("deborasantos@gmail.com")
@@ -34,8 +34,8 @@ pyautogui.press("enter")
 #Para cada linha vamos cadastrar um produto
 for linha in tabela.index:
     #Clica no primeiro campo
-    pyautogui.click(x=470, y=254)
-    #Pega o código da tabela e escreve no campo
+    pyautogui.click(x=453, y=262)
+    #Pega o Under Armourcódigo da tabela e escreve no campo
     pyautogui.write(str(tabela.loc[linha, "codigo"]))
     #passando para o próximo campo
     pyautogui.press("tab")
@@ -53,8 +53,11 @@ for linha in tabela.index:
     pyautogui.write(str(tabela.loc[linha, "obs"]))
     pyautogui.press("tab")
     #verifica se tem informação em "obs", caso contrário não preenche
-    if not pd.isna(tabela.loc[linha, "obs"]):
-        pyautogui.write(str(tabela.loc[linha, "obs"]))
-        
+    if not pd.notna(tabela.loc[linha, "obs"]):
+       pyautogui.write(str(tabela.loc[linha, "obs"]))
+
+    pyautogui.click(x=466, y=599)
+    pyautogui.scroll(2000)
+
 
   
