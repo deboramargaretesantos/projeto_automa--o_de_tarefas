@@ -21,7 +21,7 @@ pyautogui.write(link)
 pyautogui.press("enter")
 
 #tempo de espera para abertura do sistema
-time.sleep(3)
+time.sleep(2)
 #fazendo login (qualquer e-mail e senha funcionará)
 pyautogui.click(x=596, y=377)
 pyautogui.write("deborasantos@gmail.com")
@@ -30,7 +30,7 @@ pyautogui.click(x=546, y=470)
 pyautogui.write("****")
 pyautogui.press("enter")
 
-pyautogui.PAUSE = 0.5
+
 #Aqui precisamos percorrer as linhas da tabela
 #Para cada linha vamos cadastrar um produto
 for linha in tabela.index:
