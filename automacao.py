@@ -2,7 +2,7 @@
 import pyautogui
 #Biblioteca pandas usada aqui Leitura e escrita de arquivos como CSV
 import pandas as pd
-#Pausa a execução de um programa por um tempo específico com
+#Pausa a execução de um programa por um tempo específico
 import time
 
 #Importando base de dados
