@@ -1,4 +1,4 @@
-Este projeto consiste em um script Python para automatizar o cadastro de produtoem um sistema web, utilizando as bibliotecas pyautogui, pandas e time. 
+Este projeto consiste em um script Python para automatizar o cadastro de produto em um sistema web, utilizando as bibliotecas pyautogui, pandas e time. 
 O script lê os dados de um arquivo CSV (produtos2.csv) e utiliza pyautogui para interagir com a interface gráfica do sistema web, simulando cliques e digitação de dados.
 
 Arquivos do Projeto:
